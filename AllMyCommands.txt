@@ -1,0 +1,48 @@
+a)
+git init
+git remote add origin https://github.com/ibraamEmad/newTask.git
+git push -u origin master
+
+b)
+git add section1-1.txt
+git add section3-1.txt
+git add section5-1.txt
+
+c)
+git reset section3-1.txt
+
+d)
+git add section3-1.txt
+
+e)
+git commit -m "3 files"
+
+f)
+git push -u origin master
+
+g)
+echo "" > README.md
+
+h)
+git branch ReadMe
+git checkout ReadMe
+
+i)
+git add /Users/ibraam/Desktop/git/README.md
+
+j)
+git commit -m "read me"
+git push -u origin ReadMe
+
+k) 
+git checkout master
+git pull origin master
+git merge ReadMe
+git push origin master
+
+l)
+git add AllMyCommands.txt
+git commit -m "all my commands"
+git push -u origin master
+
+
